@@ -1,0 +1,19 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.jumbotron {
+  background-color: #ffc107;
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+footer {
+  background-color: #f8f9fa;
+}

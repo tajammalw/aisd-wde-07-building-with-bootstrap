@@ -4,7 +4,7 @@
 ![Screenshot of the project](assets/images/example.png)
 
 ## Description
-This assignment will guide you in creating a responsive landing page for a local store using Bootstrap. You'll learn how to set up your HTML and CSS files, include the necessary Bootstrap components, and build a simple yet professional-looking page step-by-step.
+This assignment will guide you in creating a responsive landing page for a code-themed ice cream shop using Bootstrap. You'll learn how to set up your HTML and CSS files, include the necessary Bootstrap components, and build a simple yet professional-looking page step-by-step.
 
 ## Prerequisites
 
@@ -35,7 +35,7 @@ bootstrap_landing_page_project
      <head>
        <meta charset="UTF-8" />
        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-       <title>Local Store Landing Page</title>
+       <title>Byte-Scream Ice Cream Shop</title>
        <link rel="stylesheet" href="styles.css" />
      </head>
      <body>
@@ -61,7 +61,7 @@ bootstrap_landing_page_project
    <head>
      <meta charset="UTF-8" />
      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-     <title>Local Store Landing Page</title>
+     <title>Byte-Scream Ice Cream Shop</title>
      <link
        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
        rel="stylesheet"
@@ -77,7 +77,7 @@ bootstrap_landing_page_project
    ```html
    <nav class="navbar navbar-expand-lg navbar-light bg-light">
      <div class="container-fluid">
-       <a class="navbar-brand" href="#">Local Store</a>
+       <a class="navbar-brand" href="#">Byte-Scream</a>
        <button
          class="navbar-toggler"
          type="button"
@@ -95,7 +95,7 @@ bootstrap_landing_page_project
              <a class="nav-link active" aria-current="page" href="#">Home</a>
            </li>
            <li class="nav-item">
-             <a class="nav-link" href="#">Products</a>
+             <a class="nav-link" href="#">Flavors</a>
            </li>
            <li class="nav-item">
              <a class="nav-link" href="#">About Us</a>
@@ -111,37 +111,51 @@ bootstrap_landing_page_project
 
 5. **Add a Hero Section:**
 
-   - Below the navbar, add a hero section to introduce the store:
+   - Below the navbar, add a hero section to introduce the shop:
 
    ```html
    <div class="container mt-5">
-     <div class="jumbotron text-center bg-info text-white p-5 rounded">
-       <h1>Welcome to Our Local Store</h1>
-       <p>Quality Products at the Best Prices</p>
-       <a class="btn btn-primary btn-lg" href="#" role="button">Shop Now</a>
+     <div class="jumbotron text-center bg-warning text-dark p-5 rounded">
+       <h1>Welcome to Byte-Scream</h1>
+       <p>Code Your Way to the Best Ice Cream in Town</p>
+       <a class="btn btn-primary btn-lg" href="#" role="button">Order Now</a>
      </div>
    </div>
    ```
 
-6. **Add a Products Section:**
+6. **Add a Flavors Section:**
 
-   - Add a section to display some of the store's products:
+   - Add a section to display some of the shop's featured flavors:
 
    ```html
    <div class="container my-5">
-     <h2 class="text-center mb-4">Our Featured Products</h2>
+     <h2 class="text-center mb-4">Our Featured Flavors</h2>
      <div class="row">
        <div class="col-md-4">
          <div class="card">
            <img
-             src="https://via.placeholder.com/150"
+             src="./assets/vanilla.jpg"
              class="card-img-top"
-             alt="Product 1"
+             alt="Vanilla Byte"
            />
            <div class="card-body">
-             <h5 class="card-title">Product 1</h5>
-             <p class="card-text">This is a brief description of Product 1.</p>
-             <a href="#" class="btn btn-primary">Buy Now</a>
+             <h5 class="card-title">Vanilla Byte</h5>
+             <p class="card-text">A classic vanilla flavor with a byte of sweetness.</p>
+             <a href="#" class="btn btn-primary">Order Now</a>
+           </div>
+         </div>
+       </div>
+       <div class="col-md-4">
+         <div class="card">
+           <img
+             src="./assets/chocolate.jpg"
+             class="card-img-top"
+             alt="Chocolate Chip Code"
+           />
+           <div class="card-body">
+             <h5 class="card-title">Chocolate Chip Code</h5>
+             <p class="card-text">Chocolate chips embedded in rich, creamy goodness.</p>
+             <a href="#" class="btn btn-primary">Order Now</a>
            </div>
          </div>
        </div>
@@ -150,26 +164,12 @@ bootstrap_landing_page_project
            <img
              src="https://via.placeholder.com/150"
              class="card-img-top"
-             alt="Product 2"
+             alt="Strawberry Script"
            />
            <div class="card-body">
-             <h5 class="card-title">Product 2</h5>
-             <p class="card-text">This is a brief description of Product 2.</p>
-             <a href="#" class="btn btn-primary">Buy Now</a>
-           </div>
-         </div>
-       </div>
-       <div class="col-md-4">
-         <div class="card">
-           <img
-             src="https://via.placeholder.com/150"
-             class="card-img-top"
-             alt="Product 3"
-           />
-           <div class="card-body">
-             <h5 class="card-title">Product 3</h5>
-             <p class="card-text">This is a brief description of Product 3.</p>
-             <a href="#" class="btn btn-primary">Buy Now</a>
+             <h5 class="card-title">Strawberry Script</h5>
+             <p class="card-text">A fruity favorite for code enthusiasts.</p>
+             <a href="#" class="btn btn-primary">Order Now</a>
            </div>
          </div>
        </div>
@@ -183,7 +183,7 @@ bootstrap_landing_page_project
 
    ```html
    <footer class="bg-light text-center py-4">
-     <p>&copy; 2024 Local Store. All rights reserved.</p>
+     <p>&copy; 2024 Byte-Scream Ice Cream Shop. All rights reserved.</p>
    </footer>
    ```
 
@@ -201,7 +201,7 @@ bootstrap_landing_page_project
    }
 
    .jumbotron {
-     background-color: #007bff;
+     background-color: #ffc107;
    }
 
    .card-title {

@@ -1,7 +1,7 @@
 
 # WDE06 Building a Landing Page with Bootstrap
 
-![Screenshot of the project](assets/images/example.png)
+![Screenshot of the project](assets//complete.png)
 
 ## Description
 This assignment will guide you in creating a responsive landing page for a code-themed ice cream shop using Bootstrap. You'll learn how to set up your HTML and CSS files, include the necessary Bootstrap components, and build a simple yet professional-looking page step-by-step.

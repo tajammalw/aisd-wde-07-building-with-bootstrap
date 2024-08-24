@@ -3,33 +3,30 @@
 
 ![Screenshot of the project](./assets/complete.png)
 
-## Description
+## Description 📄
 This assignment will guide you in creating a responsive landing page for a code-themed ice cream shop using Bootstrap. You'll learn how to set up your HTML and CSS files, include the necessary Bootstrap components, and build a simple yet professional-looking page step-by-step.
 
 This activity is meant to be done solo. You may ask your instructor or associate for help as needed.
 
-## Prerequisites
+## Expected Project Structure 🏗️
 
-- Basic knowledge of HTML and CSS
-
-## Project Structure
-
-```
+```plaintext
 bootstrap_landing_page_project
 │   index.html
 │   styles.css
 ```
 
-## Steps
+## Instructions ✅
 
-1. **Create HTML and CSS Files:**
+## 1. **Create the Project Folder and Files**
 
-   - Create a new HTML file named `index.html`.
-   - Create a new CSS file named `styles.css`.
+   - [ ] Create a new HTML file named `index.html`.
+   - [ ] Create a new CSS file named `styles.css`.
 
-2. **Add Boilerplate Code to HTML:**
+## 2. **Start with a HTML Boilerplate**
+Now that you have your files set up, start by adding the basic HTML5 boilerplate.
 
-   - Open `index.html` and add the following boilerplate code:
+  - [ ] Open your currently empty index.html file and add the following code to it.
 
    ```html
    <!DOCTYPE html>
@@ -46,18 +43,18 @@ bootstrap_landing_page_project
    </html>
    ```
 
-3. **Include Bootstrap CDN:**
+**Explanation:**
+- Declares the document as HTML5 and sets up the essential metadata and styles.
 
-   - In the `<head>` section of your `index.html`, include the Bootstrap CDN to use Bootstrap components and styles:
+## 3. **Add Bootstrap CDN:**
 
-   ```html
-   <link
-     href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
-     rel="stylesheet"
-   />
-   ```
+- [ ] To include Bootstrap in your project, add the following CDN link to the `<head>` of your `index.html` file:
 
-   Your `<head>` section should now look like this:
+```html
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+```
+
+Your `<head>` section should now look like this:
 
    ```html
    <head>
@@ -71,10 +68,15 @@ bootstrap_landing_page_project
      <link rel="stylesheet" href="styles.css" />
    </head>
    ```
+**Explanation:**
 
-4. **Add a Navbar:**
+-   The Bootstrap CDN link allows you to use Bootstrap's CSS and components in your project. [Bootstrap CDN Documentation](https://getbootstrap.com/docs/5.3/getting-started/download/)
+-   It's important to note that the bootstrap versions being utilized by a CDN can change frequently. Be sure to check the documentation for the latest version being utilized.
 
-   - In `index.html`, between the `<body>` tags, add the following Bootstrap navbar code:
+
+## 4. **Add a Navbar**
+
+- [ ] To create a responsive navbar using Bootstrap, add the following code to your `index.html`, between the `<body> </body>` tags:
 
    ```html
    <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -110,10 +112,13 @@ bootstrap_landing_page_project
      </div>
    </nav>
    ```
+**Explanation:**
 
-5. **Add a Hero Section:**
+-   Creates a responsive navigation bar that collapses on smaller screens. [Bootstrap Navbar Documentation](https://getbootstrap.com/docs/5.3/components/navbar/)
 
-   - Below the navbar, add a hero section to introduce the shop:
+## 5. **Add a Hero Section:**
+
+ - [ ] Below the navbar, add a hero section to introduce the shop:
 
    ```html
    <div class="container mt-5">
@@ -124,10 +129,14 @@ bootstrap_landing_page_project
      </div>
    </div>
    ```
+**Explanation**
 
-6. **Add a Flavors Section:**
+- `mt-5`: Adds a top margin of 3rem (48px) to the container, creating space above it to separate the content from the top of the page.
+- [Bootstrap Jumbotron Documentation](https://getbootstrap.com/docs/4.0/components/jumbotron/)
 
-   - Add a section to display some of the shop's featured flavors:
+## 6. **Add a Flavors Section:**
+
+- [ ] Add a section to display some of the shop's featured flavors:
 
    ```html
    <div class="container my-5">
@@ -178,20 +187,25 @@ bootstrap_landing_page_project
      </div>
    </div>
    ```
+**Explanation**
+- Created cards that include an image, title, description and a button.
+- [Bootstrap Cards Documentation](https://getbootstrap.com/docs/4.0/components/card/)
 
-7. **Add a Footer:**
+## 7. **Add a Footer:**
 
-   - Finally, add a footer to complete the landing page:
+- [ ] Finally, add a footer to complete the landing page:
 
    ```html
    <footer class="bg-light text-center py-4">
      <p>&copy; 2024 Byte-Scream Ice Cream Shop. All rights reserved.</p>
    </footer>
    ```
+**Explanation**
+- [Bootstrap Footer Documentation](https://getbootstrap.com/docs/5.3/examples/footers/)
 
-8. **Customize with Additional CSS:**
+## 8. **Add Custom Styling**
 
-   - Open `styles.css` and add custom styles to enhance the appearance:
+- [ ] Open `styles.css` and add custom styles to enhance the appearance:
 
    ```css
    body {
@@ -214,17 +228,41 @@ bootstrap_landing_page_project
      background-color: #f8f9fa;
    }
    ```
+**Explanation**
+- Enhances readability and branding by setting a clean font style across the site.
+- Bolds key elements like the navbar brand and card titles to make them stand out.
+- Applies consistent styling by adding specific background colors to the jumbotron and footer to create a cohesive visual theme.
 
-9. **Testing Your Page:**
+## 9. **Testing Your Page:**
 
-   - Open your `index.html` in a browser to view the landing page.
-   - Resize the browser window to see how the page adapts to different screen sizes.
+- [ ] Open your `index.html` in a browser to view the landing page.
+- [ ] Resize the browser window to see how the page adapts to different screen sizes.
 
-## AI Assistance
+## 10. **Commit and Push to Github**
+- [ ] Commit and push your work to Github.
 
-If you have any questions or need further explanations, feel free to ask the AI for help. Here are some examples of what you might ask:
+# Conclusion 📄
+
+Through this project, you’ve learned to build a responsive landing page using Bootstrap. 
+
+You set up a well-structured project, added key components like the navbar and cards, and customized the design with CSS. 
+
+If you have any questions or need further explanations, feel free to ask the AI for help. 
+Here are some examples of what you might ask:
 
 - "How do I use Bootstrap components to create a layout?"
 - "How can I customize Bootstrap styles?"
 
 Good luck, and enjoy building your Bootstrap landing page!
+
+##
+
+### Solution codebase 👀
+🛑 **Only use this as a reference** 🛑
+
+💾 **Not something to copy and paste** 💾
+
+**Note:**  This lab references a solution file located [here](https://github.com/HackerUSA-CE/aisd-wde-07-building-with-bootstrap/tree/solution) (link not shown).
+
+---
+© All rights reserved to ThriveDX

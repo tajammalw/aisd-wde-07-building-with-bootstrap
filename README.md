@@ -1,5 +1,5 @@
 
-# WDE06 Building a Landing Page with Bootstrap
+# Building a Landing Page with Bootstrap
 
 ![Screenshot of the project](./assets/complete.png)
 

@@ -23,10 +23,10 @@ bootstrap_landing_page_project
    - [ ] Create a new HTML file named `index.html`.
    - [ ] Create a new CSS file named `styles.css`.
 
-## 2. **Start with a HTML Boilerplate**
+## 2. **Add HTML Boilerplate**
 Now that you have your files set up, start by adding the basic HTML5 boilerplate.
 
-  - [ ] Open your currently empty index.html file and add the following code to it.
+  - [ ] Open your currently empty `index.html` file and add the following code to it.
 
    ```html
    <!DOCTYPE html>

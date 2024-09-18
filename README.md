@@ -6,8 +6,6 @@
 ## Description 📄
 This assignment will guide you in creating a responsive landing page for a code-themed ice cream shop using Bootstrap. You'll learn how to set up your HTML and CSS files, include the necessary Bootstrap components, and build a simple yet professional-looking page step-by-step.
 
-This activity is meant to be done solo. You may ask your instructor or associate for help as needed.
-
 ## Expected Project Structure 🏗️
 
 ```plaintext
